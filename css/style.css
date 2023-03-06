@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --color-header-gradient1: #574AE8;
+    --color-header-gradient2: #3EA1DB;
+    --color-header-white: #FFF;
+    --color-header-gray: rgba(255, 255, 255, 0.2);
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, var(--color-header-gradient1), var(--color-header-gradient2));
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 150px;
+ 
+}
+
+.text-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 90%;
+  color: var(--color-header-white);
+  margin-bottom: 41px;
+}
+
+.seach-container{
+    display: flex;
+    border-radius: 5px;
+    width: 90%;
+    background-color: var(--color-header-gray);
+}
+
+.seach-container img{
+   padding: 0px 12px 0px 12px;
+   width: 40px;
+   height: 40px;
+
+}
+
+.seach-container input{
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: var(--color-header-white);
+    
+}
+
+.seach-container input::placeholder{
+    color: var(--color-header-white);
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.5;
+}
+
+.seach-container input:focus{
+    outline: 0;
+}
+
+.dark-mode{
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: var(--color-header-white);
+}
+
+
+
