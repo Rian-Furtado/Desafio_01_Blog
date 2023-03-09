@@ -1,6 +1,5 @@
-const button = document.getElementById('btn');
+const icon = document.querySelector("#icon");
 
-button.addEventListener('change', () => {
-
-    document.body.classList.toggle('dark');
-})
+icon.onclick = () => {
+  icon.classList.toggle("filled");
+};
