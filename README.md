@@ -1,5 +1,9 @@
 # Desafio - Blog
-Este desafio tem como objetivo criar um blog utilizando HTML, CSS e JavaScript. O desafio foi retirado da comunidade Codelândia, que é uma ótima oportunidade para desenvolvedores aprimorarem suas habilidades em Front-end.
+
+
+<img src="Blog.png" alt="exemplo imagem">
+
+> Este desafio tem como objetivo criar uma página estática que simula a pesquisa em um Blog. 
 
 ## Como visualizar o projeto
 
